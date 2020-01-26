@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{347E0F78-BAD9-4836-9DAF-399DE47B1C54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{EE97D737-EBF0-485F-AD09-6C919BAE8BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTaxi.Infrastructure", "src\BuildingBlocks\NewTaxi.Infrastructure\NewTaxi.Infrastructure.csproj", "{3E6A31EA-A120-4129-B885-D4B7C489BC65}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTaxi.Infrastructure.Test", "src\BuildingBlocks\NewTaxi.Infrastructure.Test\NewTaxi.Infrastructure.Test.csproj", "{7C194D57-9B8B-44DB-80DF-2CBFFD6627FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E6A31EA-A120-4129-B885-D4B7C489BC65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E6A31EA-A120-4129-B885-D4B7C489BC65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E6A31EA-A120-4129-B885-D4B7C489BC65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E6A31EA-A120-4129-B885-D4B7C489BC65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C194D57-9B8B-44DB-80DF-2CBFFD6627FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C194D57-9B8B-44DB-80DF-2CBFFD6627FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C194D57-9B8B-44DB-80DF-2CBFFD6627FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C194D57-9B8B-44DB-80DF-2CBFFD6627FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EE97D737-EBF0-485F-AD09-6C919BAE8BC4} = {347E0F78-BAD9-4836-9DAF-399DE47B1C54}
+		{3E6A31EA-A120-4129-B885-D4B7C489BC65} = {EE97D737-EBF0-485F-AD09-6C919BAE8BC4}
+		{7C194D57-9B8B-44DB-80DF-2CBFFD6627FE} = {EE97D737-EBF0-485F-AD09-6C919BAE8BC4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E7D8546-54E4-4EF0-9C1E-7A2B06F906EE}
+	EndGlobalSection
+EndGlobal
